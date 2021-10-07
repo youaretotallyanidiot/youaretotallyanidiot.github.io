@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>You are an idiot!</title>
+</head>
+<body>
+<script>
+function randomRange(min, max) {
+	return Math.floor(Math.random() * (max - min) + min);
+}
+
+function setWindow() {			
+	window.moveTo(randomRange(0, screen.width), randomRange(0, screen.height));
+}
+</script>
+</body>
+</html>
