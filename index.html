@@ -2,8 +2,27 @@
 <html>
 <head>
 <title>You are an idiot!</title>
+<style>
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("uareanidiot.gif");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
 </head>
 <body>
+	<div class="bg"></div>
 <script>
 function randomRange(min, max) {
 	return Math.floor(Math.random() * (max - min) + min);
