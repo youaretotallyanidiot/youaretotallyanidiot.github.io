@@ -13,5 +13,6 @@ function openWindow() {
 function moveWindowLoop() {
   while (true) {
     setTimeout(function(){ setWindow(); }, 500);
+    setTimeout(function(i) { $('#ifr').attr('src', array[i]); }, 200 * i,i);
   }
 }
