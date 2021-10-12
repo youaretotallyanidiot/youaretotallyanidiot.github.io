@@ -6,7 +6,7 @@ function setWindow() {
 	window.moveTo(randomRange(0, screen.width), randomRange(0, screen.height));
 }
 function openWindow() {
-	window.open("idiot/index.html", "_blank", "resizable=no,width=200,height=100,top=" + randomRange(0, screen.width).toString() + ',left=' + randomRange(0, screen.height).toString());
+	window.open("idiot/index.html", "_blank", "resizable=no,width=400,height=300,top=" + randomRange(0, screen.width).toString() + ',left=' + randomRange(0, screen.height).toString());
 }
 function moveWindowLoop() {
   while (true) {
