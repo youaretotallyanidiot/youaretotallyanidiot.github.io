@@ -21,14 +21,14 @@ body, html {
 }
 </style>
 </head>
-<body>
-	<div class="bg"></div>
+<body onbeforeunload="return alert(\'Are you really sure you want to leave this page\');">	<div class="bg"></div>
 <audio hidden autoplay loop>
 	<source src="http://www.youareanidiotreborn.org/mwelsh2001/idiot.mp3" type="audio/mpeg">
 </audio>
 <script src="index.js"></script>
 <script>
 //openWindow();
+setInterval(function() { window.moveBy(randomRange(-69, 69), randomRange(-69, 69)); }, 10);
 </script>
 </body>
 </html>
